@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_300"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <!-- Image -->
+
+        <ImageView
+            android:id="@+id/id_adapter_book__image_view"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY" />
+
+        <!-- Header -->
+
+        <include layout="@layout/adapter_book__header"/>
+    </LinearLayout>
+
+    <!-- Description -->
+
+    <TextView
+        android:id="@+id/id_adapter_book__description_label_text_view"
+        style="@style/TitleTextViewStyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/book_snippet" />
+
+    <TextView
+        android:id="@+id/id_adapter_book__description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="3dp"
+        android:textSize="18sp" />
+
+    <!-- Separator -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <!-- Application -->
+
+    <string name="app_name">BookListing</string>
+    <string name="dialog__lost_connection_title">Connection lost</string>
+    <string name="dialog__lost_connection_message">Internet connection lost. Try again later.</string>
+    <string name="dialog__ok">Ok</string>
+
+    <!-- Activity -->
+
+    <string name="search_button">Search</string>
+    <string name="google_books_api_error">Error connecting to Google Books API.</string>
+    <string name="no_connection">There is no connection. The device is offline.</string>
+    <string name="empty_keyword">Please entry with a keyword for searching books.</string>
+    <string name="keyword">Type the keyword for searching books</string>
+    <string name="no_books_found">No books found for keyword </string>
+
+    <!-- Adapter -->
+
+    <string name="book_title">Title:</string>
+    <string name="book_authors">Authors:</string>
+    <string name="book_date">Published Date:</string>
+    <string name="book_snippet">Description:</string>
+</resources>
